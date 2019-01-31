@@ -1,0 +1,12 @@
+[submodule "my_plugins/onedark.vim"]
+	path = my_plugins/onedark.vim
+	url = https://github.com/joshdick/onedark.vim.git
+[submodule "my_plugins/vimtex"]
+	path = my_plugins/vimtex
+	url = https://github.com/lervag/vimtex.git
+[submodule "my_plugins/vim-polyglot"]
+	path = my_plugins/vim-polyglot
+	url = https://github.com/sheerun/vim-polyglot
+[submodule "my_plugins/vim-airline"]
+	path = my_plugins/vim-airline
+	url = https://github.com/vim-airline/vim-airline
