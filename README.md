@@ -60,10 +60,7 @@ If you have vim aliased as `vi` instead of `vim`, make sure to either alias it: 
 
 ## How to update to latest version?
 
-Just do a git rebase!
-
-    cd ~/.vim_runtime
-    git pull --rebase
+Run `update.sh`
 
 
 ## Some screenshots
