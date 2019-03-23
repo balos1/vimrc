@@ -210,6 +210,12 @@ function! go#config#DebugCommands() abort
   return g:go_debug_commands
 endfunction
 
+function! go#config#LspLog() abort
+  " make sure g:go_lsp_log is set so that it can be added to easily.
+  let g:go_lsp_log = get(g:, 'go_lsp_log', [])
+  return g:go_lsp_log
+endfunction
+
 function! go#config#SetDebugDiag(value) abort
   let g:go_debug_diag = a:value
 endfunction
@@ -438,6 +444,10 @@ function! go#config#FoldEnable(...) abort
     return index(go#config#FoldEnable(), a:1) > -1
   endif
   return get(g:, 'go_fold_enable', ['block', 'import', 'varconst', 'package_comment'])
+endfunction
+
+function! go#config#EchoGoInfo() abort
+  return get(g:, "go_echo_go_info", 1)
 endfunction
 
 " Set the default value. A value of "1" is a shortcut for this, for
