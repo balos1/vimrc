@@ -1,3 +1,3 @@
 #!/usr/bin/env sh
 
-git submodule update
+git submodule update --remote
