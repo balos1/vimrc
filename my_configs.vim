@@ -2,7 +2,7 @@ colo onedark
 
 " Latex-Box and vim-tex don't play nice together.
 " Polyglot includes Latex-Box so disable latex polyglot.
-" let g:polyglot_disabled = ['latex']
+let g:polyglot_disabled = ['latex']
 
 " Disable vimtex cause it crashes with large tex files
 let g:vimtex_enabled = 1
@@ -81,3 +81,4 @@ autocmd FileType cmake setlocal commentstring=#\ %s
 autocmd BufRead,BufNewFile *.cu set filetype=cuda
 autocmd BufRead,BufNewFile *.cuh set filetype=cuda
 autocmd BufRead,BufNewFile *.i set filetype=cpp
+
