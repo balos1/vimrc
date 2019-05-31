@@ -14,6 +14,7 @@ set shiftround        " Indents will round to closet multiple of 2
 set softtabstop=2     " Sets the number of columns for a TAB
 set expandtab         " Expans TABs to spaces
 set clipboard=unnamed " Use system clipboard
+set mouse=n           " Support mouse events
 
 "'''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 "                           Bindings                           "
